@@ -2,16 +2,23 @@
 	import { viewport } from '../actions/viewport';
 
 	const skills = [
-		'HTML5',
-		'CSS3',
-		'JavaScript',
 		'React',
-		'Vue.js',
+		'Next.js',
+		'Svelte / SvelteKit',
+		'JavaScript (ES6+)',
+		'TypeScript',
+		'TailwindCSS',
+		'HTML5 / CSS3',
 		'Node.js',
-		'GSAP',
-		'Tailwind CSS',
+		'Express.js',
+		'Nest.js',
+		'Python (FastAPI)',
+		'PostgreSQL',
+		'MongoDB',
+		'Docker',
+		'CI/CD',
 		'Figma',
-		'UI/UX Design'
+		'RESTful APIs'
 	];
 </script>
 
@@ -45,7 +52,7 @@
 					</div>
 					<!-- Experience Badge -->
 					<div class="absolute -bottom-5 -right-5 max-sm:-bottom-3 max-sm:-right-3 bg-gradient-to-br from-primary to-accent text-white rounded-full w-[120px] h-[120px] max-md:w-[100px] max-md:h-[100px] max-sm:w-[80px] max-sm:h-[80px] flex flex-col items-center justify-center font-bold shadow-[0_10px_20px_rgba(138,43,226,0.3)] z-20">
-						<span class="text-3xl max-sm:text-xl leading-none">5+</span>
+						<span class="text-3xl max-sm:text-xl leading-none">4+</span>
 						<span class="text-[0.9rem] max-sm:text-[0.7rem] text-center mt-1">Years Experience</span>
 					</div>
 				</div>
@@ -54,10 +61,10 @@
 			<!-- Right Column: Bio details -->
 			<div use:viewport class="flex-1 fade-left">
 				<p class="text-gray mb-8">
-					I'm a passionate Frontend Developer specializing in creating visually stunning and user-friendly websites. With a background in both design and development, I bridge the gap between aesthetics and functionality.
+					I'm an innovative Fullstack Developer with over 4 years of experience specializing in the JavaScript ecosystem (React, Node.js, Next.js, SvelteKit) and Python FastAPI. I have a proven track record of building scalable, high-performance web applications and RESTful APIs.
 				</p>
 				<p class="text-gray mb-8">
-					My approach combines creativity with technical expertise to build immersive digital experiences. I'm constantly exploring new technologies and techniques to push the boundaries of what's possible on the web.
+					My approach combines detailed system architecture design with modern, user-friendly interface styling. I'm highly passionate about automating workflows, CI/CD integrations, unit testing, and implementing AI-powered features for businesses.
 				</p>
 				<a
 					href="#contact"

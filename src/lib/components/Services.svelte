@@ -10,33 +10,33 @@
 	const services: Service[] = [
 		{
 			icon: 'fas fa-code',
-			title: 'Web Development',
-			description: 'Creating responsive and performant websites with clean code and modern technologies to ensure the best user experience.'
+			title: 'Full-Stack Web Dev',
+			description: 'Developing highly interactive, performant web applications using SvelteKit, React, Next.js, and modern Tailwind CSS configurations.'
 		},
 		{
-			icon: 'fas fa-paint-brush',
-			title: 'UI/UX Design',
-			description: 'Designing intuitive and visually appealing interfaces that enhance user engagement and satisfaction.'
+			icon: 'fas fa-server',
+			title: 'Backend & API Design',
+			description: 'Designing secure, scalable RESTful APIs with Python FastAPI, Express, Nest.js, and robust validation structures.'
 		},
 		{
-			icon: 'fas fa-mobile-alt',
-			title: 'Responsive Design',
-			description: 'Building websites that work flawlessly across all devices, from desktops to smartphones and tablets.'
+			icon: 'fas fa-database',
+			title: 'Database Management',
+			description: 'Structuring efficient SQL and NoSQL databases using PostgreSQL, MongoDB, SQLModel, and multi-tenant warehouse models.'
 		},
 		{
-			icon: 'fas fa-rocket',
-			title: 'Performance Optimization',
-			description: 'Improving website speed and performance to enhance user experience and search engine rankings.'
-		},
-		{
-			icon: 'fas fa-search',
-			title: 'SEO Optimization',
-			description: 'Implementing best practices to improve your website\'s visibility in search engines and drive organic traffic.'
+			icon: 'fas fa-robot',
+			title: 'AI Workflows & Integrations',
+			description: 'Implementing custom AI-powered workflows to automate backend tasks, client flows, and administrative processes.'
 		},
 		{
 			icon: 'fas fa-cogs',
-			title: 'Website Maintenance',
-			description: 'Providing ongoing support and updates to keep your website secure, up-to-date, and running smoothly.'
+			title: 'DevOps & Test Automation',
+			description: 'Setting up automated CI/CD pipelines, Docker container environments, Selenium script suites, and cPanel/production server deploys.'
+		},
+		{
+			icon: 'fas fa-rocket',
+			title: 'Performance & SEO',
+			description: 'Optimizing application bundles, databases, and server configurations for blazing-fast speed and search engine visibility.'
 		}
 	];
 </script>

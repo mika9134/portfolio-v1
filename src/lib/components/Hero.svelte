@@ -3,7 +3,7 @@
 	import { viewport } from '../actions/viewport';
 
 	// Typed Text Animation State
-	const texts = ['John Doe', 'Web Developer', 'UI/UX Designer', 'Freelancer'];
+	const texts = ['Mikiyas Solomon', 'Fullstack Developer', 'Svelte / Next.js Expert', 'FastAPI Developer'];
 	let textIndex = $state(0);
 	let charIndex = $state(0);
 	let isDeleting = $state(false);
@@ -107,7 +107,7 @@
 					<span class="text-primary [text-shadow:var(--glow)] font-extrabold">{typedText}<span class="animate-pulse">|</span></span>
 				</h1>
 				<p use:viewport class="text-[1.2rem] max-sm:text-[1rem] text-gray mb-8 max-w-[500px] max-lg:mx-auto fade-up">
-					A creative designer and developer focused on crafting clean & user-friendly experiences. I transform ideas into digital reality with cutting-edge technology and aesthetic design.
+					Innovative Fullstack Developer with over 4 years of experience specializing in SvelteKit, React, Next.js, and Python FastAPI to build high-performance web systems.
 				</p>
 				<div use:viewport class="flex gap-4 mb-8 max-lg:justify-center max-sm:flex-col fade-up">
 					<a
@@ -126,7 +126,7 @@
 				</div>
 				<div use:viewport class="flex gap-4 max-lg:justify-center fade-up">
 					<a
-						href="https://github.com"
+						href="https://github.com/mika9134"
 						target="_blank"
 						rel="noreferrer"
 						class="social-icon w-10 h-10 rounded-full bg-card-bg flex items-center justify-center text-gray text-lg transition-all shadow-[0_4px_10px_rgba(0,0,0,0.2)] hover:bg-gradient-to-r hover:from-primary hover:to-accent hover:text-white hover:scale-110 hover:shadow-[0_0_10px_rgba(138,43,226,0.5)]"
@@ -135,31 +135,13 @@
 						<i class="fab fa-github"></i>
 					</a>
 					<a
-						href="https://linkedin.com"
+						href="https://www.linkedin.com/in/mikiyas-solomon-a55769261"
 						target="_blank"
 						rel="noreferrer"
 						class="social-icon w-10 h-10 rounded-full bg-card-bg flex items-center justify-center text-gray text-lg transition-all shadow-[0_4px_10px_rgba(0,0,0,0.2)] hover:bg-gradient-to-r hover:from-primary hover:to-accent hover:text-white hover:scale-110 hover:shadow-[0_0_10px_rgba(138,43,226,0.5)]"
 						aria-label="LinkedIn"
 					>
 						<i class="fab fa-linkedin-in"></i>
-					</a>
-					<a
-						href="https://twitter.com"
-						target="_blank"
-						rel="noreferrer"
-						class="social-icon w-10 h-10 rounded-full bg-card-bg flex items-center justify-center text-gray text-lg transition-all shadow-[0_4px_10px_rgba(0,0,0,0.2)] hover:bg-gradient-to-r hover:from-primary hover:to-accent hover:text-white hover:scale-110 hover:shadow-[0_0_10px_rgba(138,43,226,0.5)]"
-						aria-label="Twitter"
-					>
-						<i class="fab fa-twitter"></i>
-					</a>
-					<a
-						href="https://dribbble.com"
-						target="_blank"
-						rel="noreferrer"
-						class="social-icon w-10 h-10 rounded-full bg-card-bg flex items-center justify-center text-gray text-lg transition-all shadow-[0_4px_10px_rgba(0,0,0,0.2)] hover:bg-gradient-to-r hover:from-primary hover:to-accent hover:text-white hover:scale-110 hover:shadow-[0_0_10px_rgba(138,43,226,0.5)]"
-						aria-label="Dribbble"
-					>
-						<i class="fab fa-dribbble"></i>
 					</a>
 				</div>
 			</div>
